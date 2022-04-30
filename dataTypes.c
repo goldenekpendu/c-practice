@@ -11,6 +11,7 @@ int main()
     int = %d or %i
     char = %c
     float = %f
+    memory address = %p
 
 
     will add more later on
@@ -25,6 +26,8 @@ int main()
 
     printf("size of float: %.2f\n", sizeof(gpa));
     printf("\n");
+
+    printf("memory address of variable %p\n", age);
 
     // printf("size of double: %d\n", sizeof(trouble));
 }

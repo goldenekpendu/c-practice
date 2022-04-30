@@ -8,6 +8,14 @@ typedef struct
     int age;
 } user;
 
+// using typedef to create a custom name for a data type
+typedef struct
+{
+    int number;
+    char name[10];
+    float age;
+} Doggie;
+
 int main()
 {
 
@@ -29,4 +37,10 @@ int main()
     printf("%d\n", person3.age);
 
     printf("\n");
+
+    Doggie dog1 = {2, "Scooby", 1.30};
+
+    printf("%d\n", dog1.number);
+    printf("%s\n", dog1.name);
+    printf("%.2f\n", dog1.age);
 };
